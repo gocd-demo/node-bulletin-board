@@ -11,6 +11,7 @@ if [ -z $NAMESPACE ]; then
 fi
 
 echo
+echo "test========================="
 echo "Namespace $NAMESPACE"
 
 status_code=$(curl -sSk -H "Authorization: Bearer $KUBE_TOKEN" \
